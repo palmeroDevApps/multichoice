@@ -1,17 +1,26 @@
 {
-    "name": "12.sass",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-        "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "node-sass": "^4.14.1",
-        "nodemon": "^2.0.4"
-    }
+  "name": "12.sass",
+  "version": "1.5.0",
+  "description": "third installment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Palmero Cristian",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmeroDevApps/technologic_e_commerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/palmeroDevApps/technologic_e_commerce/issues"
+  },
+  "homepage": "https://github.com/palmeroDevApps/technologic_e_commerce#readme"
 }
