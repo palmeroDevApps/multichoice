@@ -286,6 +286,16 @@ form label {
   background-color: #4ea4bb;
   width: 360px;
   margin-left: 200px; }
+  #registerBox2 form {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px; }
+  #registerBox2 P {
+    color: white; }
+    #registerBox2 P a {
+      color: #002bff; }
+  #registerBox2 #textRegister {
+    font-family: 'arial'; }
 
 .formLogin input {
   width: 250px;
@@ -314,14 +324,6 @@ form label {
   height: 35px;
   border-radius: 0.5rem; }
 
-#registerBox2 form {
-  margin-top: 20px;
-  margin-left: 25px;
-  margin-bottom: 20px; }
-
-#textRegister {
-  font-family: 'arial'; }
-
 @media (max-width: 768px) {
   #loginSection {
     display: flex;
@@ -334,51 +336,41 @@ form label {
 
 /*For the help page*/
 #bodyHelp {
-  display: grid;
-  grid-template-areas: "helpHeader" "helpSection" "footerHelp";
-  grid-template-rows: 115px 1000px auto;
+  display: flex;
+  flex-direction: column;
   background-color: #FFE599; }
 
-header#helpHeader {
-  grid-area: "helpHeader"; }
-
 #subtitleHelp {
-  color: #24CB46;
+  padding-left: 15px;
+  font-weight: bolder;
   font-size: 1.8em; }
 
-section#helpSection {
-  grid-area: "helpSection"; }
-
-#helpParrafs {
+section #helpParrafs {
+  padding-left: 15px;
   font-family: 'Tahoma';
   margin-top: 31px; }
-
-#helpParrafs p {
-  margin-top: 31px; }
-
-#helpParrafs h3 {
-  text-decoration: underline; }
+  section #helpParrafs p {
+    margin-top: 31px; }
+  section #helpParrafs h3 {
+    text-decoration: underline; }
 
 footer#footerHelp {
-  grid-area: "footerHelp";
   display: flex;
-  justify-content: flex-end; }
-
-#sendMessage {
-  background-color: #009E0F;
-  border: 0.2px solid #25AC2A;
-  font-family: 'Tahoma';
-  text-align: center;
-  color: white; }
-
-#sendMessage p {
-  margin: 0 auto;
-  border: 2px solid black;
-  height: 25px;
-  width: 450px; }
-
-#helpFootImg {
-  height: 20px; }
+  justify-content: flex-end;
+  padding-top: 400px; }
+  footer#footerHelp #helpFootImg {
+    height: 20px; }
+  footer#footerHelp #sendMessage {
+    background-color: #4ea4bb;
+    border: 0.2px solid #25AC2A;
+    font-family: 'Tahoma';
+    text-align: center;
+    color: white; }
+    footer#footerHelp #sendMessage p {
+      margin: 0 auto;
+      border: 2px solid black;
+      height: 25px;
+      width: 450px; }
 
 /*For the sponsors page*/
 body#sponsorsBody {
