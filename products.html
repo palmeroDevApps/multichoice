@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>MULTICHOICE - Productos dedicados para vos</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./js/aditional_js.js"></script>
+
+    <!-- Adaptar la página web a responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--KEYWORDS O PALABRAS CLAVE-->
+    <meta name="description" content="Acceso a esta ecommerce tecnológica, sede de una gran cantidad de productos gamer!">
+    <meta name="keywords" content="GAMER,ECOMMERCE,COMPUTER,LAPTOPS,BUY,COMPUTER COMPONENTS,BUY,SELL,ESPORTS">
+</head>
+
+<body id="productGrid">
+    <header id="products__header">
+        <div id="products__header__box1" class="col-sd-4 titleNoIndex">
+            <div>
+                <a href="index.html"><img class="products__header__box1 header__logo" src="./Archivos Multimedia/logo.jpeg" alt="multichoice" /></a>
+            </div>
+            <div>
+                <a href=""><img id="products__header__box1__shopping_cart" src="./Archivos Multimedia/Carrito de Compras.jpg" alt="Imagen de home2" /></a>
+            </div>
+        </div>
+        <div id="products__header__subtitle">
+            <h2 class="header__subtitle--size">PRODUCTS</h2>
+        </div>
+        <div id="products__header__searchbar">
+            <label for="orderByProduct">Order by:</label>
+            <select name="orderByProduct" id="orderByProduct">
+            <option value="price">Price</option>
+            <option value="brand">Brand</option>
+            <option value="category">Category</option>
+            <input class="btn" type="submit" value="Apply"/>
+        </div>
+    </header>
+    <section class="product__section">
+        <div class="wrapper">
+            <!-- Sidebar -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>CATEGORIES</h3>
+                </div>
+        
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#">NOTEBOOKS</a>
+                    </li>
+                    <li>
+                        <a href="#">EQUIPOS ARMADOS</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            FUENTES Y GABINETES
+                        </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="#">FUENTES</a>
+                            </li>
+                            <li>
+                                <a href="#">GABINETES</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ACCESORIOS</a>
+                    </li>
+                    <li>
+                        <a href="#">MONITORES</a>
+                    </li>
+                    <li>
+                        <a href="#">PROCESADORES</a>
+                    </li>
+                    <li>
+                        <a href="#">MOTHERBOARDS</a>
+                    </li>
+                    <li>
+                        <a href="#">ALMACENAMIENTO</a>
+                    </li>
+                    <li>
+                        <a href="#">MEMORIAS RAM</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="product__section--padding-top row col-md-9">
+            <!--Toggler Button-->
+                <div id="content" class="col-md-10">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                                <i class="fas fa-align-left"></i>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product A $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox ">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product B $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product C $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product D $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product E $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product F $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox ">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product G $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox ">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product H $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+                <div class="col-xs-12 col-md-3 product__section__productBox">
+                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                    <p>
+                        Product I $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
+                    </p>
+                    <a href="">SEE PRODUCT</a>
+                </div>
+        </section>
+    </section>
+</body>
+
+</html>
