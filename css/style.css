@@ -305,6 +305,8 @@ a:focus {
     height: 270px; }
   .product__section--padding-top .product__section__productBox p {
     margin: 0px; }
+    .product__section--padding-top .product__section__productBox p i {
+      font-size: 19px !important; }
 
 /*For the login section*/
 #login__header__logo__container {
