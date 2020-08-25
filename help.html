@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <title>MULTICHOICE - Cuéntanos tus dudas</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <!-- CSS only -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Bootstrap Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -28,13 +31,16 @@
         </div>
         <hr>
         <div>
-            <h2 id="subtitleHelp">HELP! <img src="./Archivos Multimedia/imgHelp.jpg" /></h2>
+            <h2 id="login__header__logo__container__subtitleHelp">HELP! <i class="fa fa-wpforms"></i></h2>
         </div>
         </div>
     </header>
-    <section id="helpSection">
-        <div id="helpParrafs">
-            <h3><img src="./Archivos Multimedia/img2help.jpg"> Preguntas Frecuentes</h3>
+    <section id="login__help__section">
+        <div id="login__help__section__parrafs">
+            <div class="row">
+                <i class="fa fa-comment" id="login__help__section__parrafs__img"></i>
+                <h3> Preguntas Frecuentes</h3>
+            </div>
             <p>¿Hacen envíos al interior? Hacemos envíos a todo el país mediante FedEx, que es un servicio Puerta a Puerta (puede llegar a tu domicilio o a la sucursal más cercana a tu domicilio).</p>
             <p>¿Que costo tiene un envío? El costo del mismo se abona con el pedido, es decir, el pedido incluye el costo del envío. El valor del envío depende de las dimensiones del paquete y distancia. Podrás saber el costo del envío en tiempo real desde
                 www.multichoice.com ingresando tu código postal en el producto a adquirir o a tu pedido. Y según el pedido desde la misma web se le informa si es bonificado el mismo.</p>
@@ -42,7 +48,7 @@
         </div>
     </section>
     <footer id="footerHelp">
-        <div id="helpFootImg"><img src="./Archivos Multimedia/img3Help.JPG"></div>
+        <div id="helpFootImg"><i class="fa fa-comment"></i></div>
         <div id="sendMessage">
             <p> Si tu duda no se encuentra aquí no dudes en contactarnos</p>
         </div>

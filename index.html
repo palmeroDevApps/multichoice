@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <title>MULTICHOICE - Sitio de Compras para Gamer como vos</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <!-- CSS only -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Bootstrap Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -28,26 +31,31 @@
         </div>
         <div id="home__header__searchbar__block" class="col-md-8">
             <form>
-                <input type="search" id="home__header__searchbar" placeholder="Product,Commerce,Category">
-                <input type="submit" class="button btn-primary header__submit__button" value="Search" />
+                <input type="search" class="form-control" id="home__header__searchbar" placeholder="Product,Commerce,Category">
+                <input type="submit" class="button header__submit__button" value="Search" />
             </form>
         </div>
     </header>
-    <nav id="home__navbar" class="nav navbar-expand-sm bg-info col-md-12">
-        <ul class="nav navbar-nav">
-            <li class="navbar-nav nav-item">
-                <a class="nav-link" href="products.html">PRODUCTS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sponsors.html">SPONSORS</a>
-            </li class="nav-item">
-            <li class="nav-item">
-                <a class="nav-link" href="help.html">HELP</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.html">LOGIN</a>
-            </li>
-        </ul>
+    <nav id="home__navbar" class="navbar navbar-inverse navbar-expand-md sticky-top">
+        <button class="navbar-toggler  navbar__toggler__button" type="button" data-toggle="collapse" data-target="#home__navbar__toggler" aria-controls="home__navbar__toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-align-left"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="home__navbar__toggler">
+            <ul class="nav navbar-nav">
+                <li class="navbar-nav nav-item">
+                    <a class="nav-link" href="products.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sponsors.html">SPONSORS</a>
+                </li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">HELP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section id="home__section__1" class="col-sm-12 row-cols-sm-12">
         <div id="home__carousel" class="carousel slide" data-ride="carousel">
@@ -85,42 +93,61 @@
             <img src="./Archivos Multimedia/phototest.jpg " class="home__photos__photo img-thumbnail" alt="Imagen de home3 " />
         </div>
     </section>
-    <footer id="home__footer" class="col-sm-12">
-        <div id="home__footer__box" class="col-sm-12 ">
-            <div class="home__footer__box__boxes cols-sm-4">
-                <div class="home__footer__box__boxes_title ">
-                    <h3>INFORMATION</h3>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 footer__top__container__segment__1 md-mb-30 sm-mb-30">
+                        <h3>MULTICHOICE</h3>
+                        <p>
+                            Dónde estamos?
+                        </p>
+                        <p> Avenida Siempre Viva 1234 - Rodeo de los Alpes - Argintinian</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 footer__top__container__segment__2 md-mb-30 sm-mb-30">
+                        <h2>Menu</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#">Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 footer__top__container__segment__3 md-mb-30 sm-mb-30">
+                        <h2>Follow us</h2>
+                        <p>
+                            Please follow us our Social Media Profile in order to keep updated.
+                        </p>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 footer__top__container__segment__4 md-mb-30 sm-mb-30">
+                        <h2>Our News Letter</h2>
+                        <p>
+                            Do you want to receive notifications about new products?
+                        </p>
+                        <form action="">
+                            <input type="email" />
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
                 </div>
-                <p>
-                    Dónde estamos?
-                </p>
-                <p>Avenida Siempre Viva 1234 - Rodeo de los Alpes - Argintinian</p>
-            </div>
-            <div class="home__footer__box__boxes cols-sm-4">
-                <div class="home__footer__box__boxes_title ">
-                    <h3>ABOUT US</h3>
-                </div>
-                <p>
-                    Una página donde podrás escoger entre los mejores precios y donde tendrás a los mejores técnicos a la mano para ayudarte. Además de que ya contamos con más de 300 años en el mercado.
-                </p>
-            </div>
-            <div class="home__footer__box__boxes cols-sm-4">
-                <div class="home__footer__box__boxes_title ">
-                    <h3>CONTACT</h3>
-                </div>
-                <p>
-                    E-mail: ventas@manija.coum.er
-                </p>
-                <p>Atención telefónica: 5555522222111</p>
-                <p>Whatsapp: 5555522222111</p>
-                <p>Horario de atención: Lunes a viernes de 10 a 19 hs. Sábados de 10 a 13 hs y Domingos por consultas.</p>
-                <p>Envíos: envios@manija.coum.er</p>
-                <p>Soporte: rma@manija.coum.er</p>
             </div>
         </div>
-        <div id="home_footer_textLine" class="col-sm-12">
-            For any question or complaint about us, you can go to the <a href="help.html ">help</a> section
-        </div>
+        <p class="footer__bottom__text">All Right Reserved by &copy; Palmero Cristian</p>
     </footer>
 </body>
 
