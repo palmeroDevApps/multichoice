@@ -84,7 +84,6 @@ nav {
   justify-content: space-between;
   margin: 20px;
   padding-top: 35px; }
-<<<<<<< HEAD
   #home__photos div {
     overflow: hidden;
     height: 100%; }
@@ -95,12 +94,6 @@ nav {
 .home__photos__photo {
   width: 450px !important;
   height: 400px !important; }
-=======
-
-.home__photos__photo {
-  width: 450px;
-  height: 300px; }
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
 
 .footer {
   color: #999;
@@ -124,11 +117,7 @@ nav {
       color: #fff; }
     .footer .footer__top .footer__top__container__segment__2 h2:before {
       content: '|';
-<<<<<<< HEAD
       color: #4ca5bc;
-=======
-      color: #c65039;
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
       padding-right: 10px; }
     .footer .footer__top .footer__top__container__segment__2 ul {
       margin: 0;
@@ -139,32 +128,20 @@ nav {
         padding-bottom: 8px; }
         .footer .footer__top .footer__top__container__segment__2 ul li a {
           color: #999;
-<<<<<<< HEAD
           text-decoration: none;
           font-weight: bold; }
         .footer .footer__top .footer__top__container__segment__2 ul li a:hover {
           color: white; }
-=======
-          text-decoration: none; }
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
     .footer .footer__top .footer__top__container__segment__3 h2 {
       color: #fff;
       text-transform: uppercase; }
     .footer .footer__top .footer__top__container__segment__3 h2:before {
       content: '|';
-<<<<<<< HEAD
       color: #4ca5bc;
       padding-right: 10px; }
     .footer .footer__top .footer__top__container__segment__3 a {
       display: inline-block;
       background: #4ca5bc;
-=======
-      color: #c65039;
-      padding-right: 10px; }
-    .footer .footer__top .footer__top__container__segment__3 a {
-      display: inline-block;
-      background: #494848;
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
       width: 40px;
       height: 40px;
       border-radius: 50%; }
@@ -172,24 +149,17 @@ nav {
         font-size: 20px;
         color: #fff;
         padding: 10px 12px; }
-<<<<<<< HEAD
       .footer .footer__top .footer__top__container__segment__3 a i:hover {
         background-color: #a56eb9;
         border-radius: 50%;
         width: 40px;
         height: 40px; }
-=======
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
     .footer .footer__top .footer__top__container__segment__4 h2 {
       color: #fff;
       text-transform: uppercase; }
     .footer .footer__top .footer__top__container__segment__4 h2:before {
       content: '|';
-<<<<<<< HEAD
       color: #4ca5bc;
-=======
-      color: #c65039;
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
       padding-right: 10px; }
     .footer .footer__top .footer__top__container__segment__4 form {
       display: flex; }
@@ -200,11 +170,8 @@ nav {
         margin-left: -5px;
         color: #fff;
         text-transform: uppercase; }
-<<<<<<< HEAD
       .footer .footer__top .footer__top__container__segment__4 form input[type=submit]:hover {
         background: #a56eb9; }
-=======
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
   .footer .footer__bottom__text {
     text-align: center;
     background: #000;
@@ -253,11 +220,7 @@ nav {
 #products__header__searchbar {
   display: flex;
   justify-content: flex-end;
-<<<<<<< HEAD
   margin-top: 15px;
-=======
-  padding-top: 70px;
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
   border-radius: 0.25rem;
   font-size: 1rem;
   font-family: Tahoma; }
@@ -273,11 +236,7 @@ nav {
     background-color: #762895 !important;
     width: 72px;
     text-align: center;
-<<<<<<< HEAD
     color: white !important; }
-=======
-    color: white; }
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
   #products__header__searchbar input:hover {
     opacity: 0.8 !important;
     transition: 0.3s; }
@@ -318,11 +277,8 @@ nav {
   #sidebar a[aria-expanded="true"] {
     color: #fff;
     background-color: #6fa7b7; }
-<<<<<<< HEAD
   #sidebar .pagesSubmenu {
     margin-left: 25px; }
-=======
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
 
 #sidebar.active {
   margin-left: -250px; }
@@ -361,12 +317,8 @@ a:focus {
   display: flex;
   flex-direction: column;
   text-align: center;
-<<<<<<< HEAD
   padding-bottom: 15px;
   max-width: 100%; }
-=======
-  padding-bottom: 15px; }
->>>>>>> ccc1cd5ace0a7fc158e62894c89793f75e93ba47
   .product__section--padding-top .product__section__productBox .product__section__productBox__image {
     width: 260px;
     height: 270px; }
