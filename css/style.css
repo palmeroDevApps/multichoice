@@ -92,8 +92,8 @@ nav {
       transform: scale(1.2); }
 
 .home__photos__photo {
-  width: 450px !important;
-  height: 400px !important; }
+  width: 470px !important;
+  height: 430px !important; }
 
 .footer {
   color: #999;
@@ -177,10 +177,16 @@ nav {
     background: #000;
     line-height: 75px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   #home__photos img {
-    width: 426px;
-    height: 426px;
+    width: 400px !important;
+    height: 400px !important;
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 1295px) {
+  #home__photos img {
+    width: 350px !important;
+    height: 350px !important;
     margin-bottom: 20px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -346,17 +352,19 @@ form label {
   justify-content: center; }
 
 #registerBox1 {
-  border: 1px solid black;
   background-color: #4ea4bb;
   width: 360px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
   #registerBox1 form {
     margin-top: 19px;
-    margin-left: 25px;
     margin-bottom: 10px; }
+  #registerBox1 input[type='submit'] {
+    margin-left: 0; }
 
 .h3Login {
-  padding-left: 25px;
   padding-top: 9px;
   color: white;
   font-family: Tahoma;
@@ -367,14 +375,15 @@ form label {
   margin-top: 15px; }
 
 #registerBox2 {
-  border: 1px solid black;
   background-color: #4ea4bb;
   width: 360px;
   margin-left: 200px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
   #registerBox2 form {
     margin-top: 20px;
-    margin-left: 25px;
     margin-bottom: 20px; }
   #registerBox2 P {
     color: white; }
@@ -382,10 +391,13 @@ form label {
       color: #002bff; }
   #registerBox2 #textRegister {
     font-family: 'arial'; }
+  #registerBox2 input[type='submit'] {
+    margin-left: 0px; }
 
 .formLogin input {
   width: 250px;
-  height: 25px; }
+  height: 25px;
+  margin-left: 55px; }
 
 .formLogin input:focus {
   width: 270px;
@@ -428,7 +440,8 @@ form label {
   #bodyHelp #login__header__logo__container__subtitleHelp {
     padding-left: 15px;
     font-weight: bolder;
-    font-size: 1.8em; }
+    font-size: 1.8em;
+    padding-top: 30px; }
   #bodyHelp section #login__help__section__parrafs {
     padding-left: 15px;
     font-family: 'Tahoma';
@@ -462,6 +475,9 @@ form label {
         width: 450px;
         padding-top: 7px;
         font-size: 16px; }
+  @media screen and (max-width: 462px) {
+    #bodyHelp #sendMessage {
+      margin-top: 25px; } }
 
 /*For the sponsors page*/
 body#sponsorsBody {
