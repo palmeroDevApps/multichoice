@@ -35,9 +35,27 @@
                 <a href=""><i class="fa fa-shopping-cart" style="font-size:24px"></i></a>
             </div>
         </div>
-        <div id="products__header__subtitle">
-            <h2 class="header__subtitle--size">PRODUCTS</h2>
-        </div>
+        <nav id="home__navbar" class="navbar navbar-inverse navbar-expand-md sticky-top">
+            <button class="navbar-toggler  navbar__toggler__button" type="button" data-toggle="collapse" data-target="#home__navbar__toggler" aria-controls="home__navbar__toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-align-left"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="home__navbar__toggler">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-nav nav-item">
+                        <a class="nav-link" href="products.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">SPONSORS</a>
+                    </li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="help.html">HELP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOGIN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div id="products__header__searchbar">
             <label for="orderByProduct">Order by:</label>
             <select name="orderByProduct" id="orderByProduct">
@@ -66,12 +84,15 @@
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                             FUENTES Y GABINETES
                         </a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <ul class="collapse list-unstyled pagesSubmenu" id="pageSubmenu">
                             <li>
                                 <a href="#">FUENTES</a>
                             </li>
                             <li>
                                 <a href="#">GABINETES</a>
+                            </li>
+                            <li>
+                                <a href="#">GABINETE + FUENTE</a>
                             </li>
                         </ul>
                     </li>
@@ -88,7 +109,17 @@
                         <a href="#">MOTHERBOARDS</a>
                     </li>
                     <li>
-                        <a href="#">ALMACENAMIENTO</a>
+                        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            ALMACENAMIENTO
+                        </a>
+                        <ul class="collapse list-unstyled pagesSubmenu" id="pageSubmenu1">
+                            <li>
+                                <a href="#">SOLID STATE DISK</a>
+                            </li>
+                            <li>
+                                <a href="#">HARD DISK DRIVE</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#">MEMORIAS RAM</a>
@@ -103,68 +134,98 @@
                                 <i class="fa fa-align-left"></i>
                             </button>
                 </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product A $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product A $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                
+                    <div class="col-xs-12 col-md-2 product__section__productBox ">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product B $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-2 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product C $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                
+                    <div class="col-xs-12 col-md-2 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product D $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox ">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product B $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
+                <div class="row">
+                    <div class="col-xs-12 col-md-2 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product E $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-2 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product F $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                
+                    <div class="col-xs-12 col-md-2 product__section__productBox ">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product G $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-2 product__section__productBox ">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product H $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product C $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product D $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product E $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product F $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox ">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product G $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox ">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product H $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
-                </div>
-                <div class="col-xs-12 col-md-3 product__section__productBox">
-                    <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
-                    <p>
-                        Product I $$$ <a href=""><img src="./Archivos Multimedia/carrito.jpg"></a>
-                    </p>
-                    <a href="">SEE PRODUCT</a>
+                <div class="row">
+                    <div class="col-xs-12 col-md-3 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product I $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-3 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product J $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-3 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product K $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
+                    <div class="col-xs-12 col-md-3 product__section__productBox">
+                        <img class="product__section__productBox__image" src="./Archivos Multimedia/photo3.jpg" alt="Imagen de home1" />
+                        <p>
+                            Product L $$$ <a href=""><i class="fa fa-shopping-cart"></i></a>
+                        </p>
+                        <a href="">SEE PRODUCT</a>
+                    </div>
                 </div>
         </section>
     </section>
