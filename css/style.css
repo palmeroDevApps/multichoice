@@ -518,3 +518,46 @@ body#sponsorsBody {
 .boxCont:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
+
+/*Para el html de purchase_products*/
+.product__section--purchase {
+  margin-top: 60px;
+  padding-left: 90px; }
+  .product__section--purchase .product__section__productBox__image--resize {
+    width: 450px;
+    height: 403px; }
+  .product__section--purchase aside {
+    margin-left: 24px; }
+    .product__section--purchase aside #product__section__aside__h2 {
+      height: 165px;
+      font-weight: bold;
+      padding: 5px; }
+    .product__section--purchase aside span {
+      font-size: 1.6rem; }
+    .product__section--purchase aside .product__section__font__aws {
+      font-size: 1.3rem; }
+    .product__section--purchase aside .product__section__font__aws--margin {
+      margin-top: 5px; }
+    .product__section--purchase aside #product__section__button__purchase {
+      margin-top: 81px; }
+      .product__section--purchase aside #product__section__button__purchase .btn__purchase {
+        background-color: #4ea4bb !important;
+        height: 45px;
+        width: 132px;
+        color: white;
+        font-weight: bold; }
+
+#specifications__section {
+  padding-left: 90px; }
+  #specifications__section #specifications__section__container {
+    height: 500px;
+    width: 1100px;
+    background-color: white; }
+  #specifications__section #specifications__section__container__title {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px; }
+    #specifications__section #specifications__section__container__title .specifications__section__container__spans {
+      margin-top: 7px; }
+      #specifications__section #specifications__section__container__title .specifications__section__container__spans .specifications__section__container__1st__span {
+        font-weight: bold; }
